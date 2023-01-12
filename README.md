@@ -18,8 +18,8 @@ Telegram: https://t.me/HiaiFeng <br>
 <p>1、服务器端配置</p>
 <p>请使用 <a href="https://www.v2fly.org/awesome/tools.html">第三方工具</a> 生成一个新的 UUID 。在 Doprax.com 登录后依次点击左侧菜单中的 Main ,窗口右侧的 Edit source code ，选择 Dockerfile 文件，编辑 UUID 及伪装地址信息保存后重启服务。</p>
 <img src="https://hicairo.com/zb_users/upload/2022/12/202212291672276227538571.webp">
-<pre class="notranslate"><code># 用新生成的 UUID 替换 de04add9-5c68-8bab-950c-08cd5320df18
-ENV UUID de04add9-5c68-8bab-950c-08cd5320df18
+<pre class="notranslate"><code># 用新生成的 UUID 替换 077de999-40f6-4c95-bada-31bd43aa57e5
+ENV UUID 077de999-40f6-4c95-bada-31bd43aa57e5
 # VMESS_WSPATH / VLESS_WSPATH 两个常量分别定义了 Vmess/VLess 的伪装路径，
 # 请分别修改内容中的vmess或vless。注意：伪装路径以 / 符号开始,为避免不必要的麻烦，请不要使用特殊符号.
 ENV VMESS_WSPATH /vmess
